@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff; 
+    color: #000000; 
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ff0000; 
+}
+
+#contenido {
+    background-color: #ffffff; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+form {
+    background-color: #ffffff; 
+    border: none; 
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left; 
+}
+
+label {
+    color: #000000; 
+    display: block; 
+    margin-bottom: 5px; 
+    font-family: 'Product Sans', sans-serif; 
+    text-shadow: 2px 2px 2px #999999; 
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d9d9d9; 
+    background-color: #f9f9f9; 
+    box-sizing: border-box; 
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-bottom: 10px; 
+    background-color: #ff0000; 
+    color: #ffffff; 
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #e5e5e5; 
+    border: 1px solid #d9d9d9; 
+}
+
+button.registrarse,
+button.olvidar-contrasena,
+button.ingresar-con {
+    background-color: #ffffff; 
+    color: #000000;
+    font-family: 'Comic Sans MS', cursive; 
+    text-shadow: 2px 2px 2px #999999; 
+}
+
+button.ingresar-con {
+    margin-bottom: 10px; 
+}
+
+.google-image {
+    max-width: 70px; 
+    height: auto;
+    margin-left: 10px; 
+}
+
+.destacado { 
+    text-align: left;
+    position: absolute; 
+    bottom: 0; 
+    left: 10px;
+    margin-bottom: 10px; 
+}
+
+
